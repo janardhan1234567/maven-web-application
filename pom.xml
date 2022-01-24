@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>3.1</version>
 	
 	<name>maven-web-application</name>
 
@@ -98,7 +98,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://18.119.0.218:8081/repository/webapp/</url>
+	      <url>http://54.205.181.184:8081/repository/maven123new/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
