@@ -28,7 +28,7 @@ maven 'maven'
 		stage('deploy in container'){
 			steps{
 				sshagent(['tomcatmaster']){
-				sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@54.146.228.8:/opt/tomcat/webapps/'
+				sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@52.200.15.77:/opt/tomcat/webapps/'
 				}
 				
 			}
