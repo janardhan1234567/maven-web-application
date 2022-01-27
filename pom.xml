@@ -103,8 +103,8 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>multibranch</name>
-	      <url>http://3.94.90.179:8081/repository/multibranch/</url>
+	      <name>pipeline</name>
+	      <url>http://3.94.90.179:8081/repository/pipeline/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
